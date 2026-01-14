@@ -4,6 +4,8 @@ repo_url: https://github.com/Lslightly/stars
 theme:
   icon:
     repo: fontawesome/brands/github
+    tag:
+      Go: fontawesome/brands/golang
   name: material
   language: zh
   features:
@@ -15,6 +17,12 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_css:
   - stylesheets/extra.css
+plugins:
+  - tags
+extra:
+  generator: true
+  tags:
+    Go: Go
 nav:
   - Home: index.md
   - Details:
