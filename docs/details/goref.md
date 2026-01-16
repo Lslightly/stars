@@ -19,18 +19,18 @@ go tool pprof -http=127.0.0.1:8080 grf.profile.gz
 
 不同类型的对象的大小会被展示。对象之间的引用关系也会被展示。
 
-![[attachments/Pasted image 20260116205231.png]]
+![attachments/Pasted image 20260116205231.png](attachments/Pasted%20image%2020260116205231.png)
 
 top 如下：
 
-![[attachments/Pasted image 20260116205501.png]]
+![attachments/Pasted image 20260116205501.png](attachments/Pasted%20image%2020260116205501.png)
 
 flame graph:
 
-![[attachments/Pasted image 20260116205601.png]]
+![attachments/Pasted image 20260116205601.png](attachments/Pasted%20image%2020260116205601.png)
 
 source 视图展示的东西比较诡异。
 
-![](attachments/Pasted%20image%2020260116205711.png)
+![attachments/Pasted image 20260116205711.png](attachments/Pasted%20image%2020260116205711.png)
 
 
