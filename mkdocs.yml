@@ -27,3 +27,4 @@ nav:
   - Home: index.md
   - Details:
     - details/goref.md
+    - details/conbon-pprof2csv.md
